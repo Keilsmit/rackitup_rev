@@ -1,4 +1,4 @@
-require 'rack'
+require 'rack', '<2.0'
 require 'sinatra'
 require_relative 'Classic.rb'
 require_relative 'Hipster.rb'
