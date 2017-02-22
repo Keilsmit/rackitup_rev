@@ -32,9 +32,7 @@ require 'date'
       time = DateTime.parse(time).strftime("%m/%d/%Y %H:%M")
     end
 
-
     def show_time
-
       ['200', @headers, [find_time]]
     end
 
